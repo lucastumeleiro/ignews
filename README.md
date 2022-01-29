@@ -4,10 +4,10 @@
 
 </h1>
 
-<p align="center">
-  IGNEWS
-  <br>
-  <br>
+<h1 align="center">
+  <img alt="Logo" src="./public/images/logo.svg" alt="ig.News">
+</h1>
+<br>
 
 ---
 
@@ -57,7 +57,8 @@ $ cd ignews
 $ yarn
 
 # Na raiz do projeto crie uma cópia do arquivo .env.local.example
-#e siga os passos descritos nesse arquivo para configurar as variaveis de ambiente
+# Siga os passos descritos nesse arquivo
+# para configurar as variaveis de ambiente
 $ yarn dev
 
 #Execute o stripe listen para ouvir os eventos do webhook do stripe
